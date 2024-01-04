@@ -28,7 +28,7 @@ const changeBackground = (array) => {
   if(counter === array.length) {
     counter = 0;
   }
-  header.style.background = `url(/PhotoProfile/${array[counter]})`;
+  header.style.background = `url(/Profile/${array[counter]})`;
   header.style.backgroundSize = 'cover';
   header.style.backgroundPosition = 'center 30%';
   counter++;
